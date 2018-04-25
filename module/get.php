@@ -2,7 +2,7 @@
 require ("require.php");
 class get
 {
-    private $dsn = 'mysql:host=119.29.6.222;port=3306;dbname=ippool';
+    private $dsn = 'mysql:host=localhost;port=3306;dbname=ippool';
     private $username = 'root';
     private $password = 'qq123456';
     private $nowdate;
