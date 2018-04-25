@@ -9,7 +9,8 @@ class get
     private $nowmin;
     private $nowtime;
     private $id;
-    public function __construct($id)
+	private $limit;
+    public function __construct($id,$limit)
     {
         $this->nowdate=date("YmdH",time());
         //$this->nowmin=date("His",time());
@@ -17,6 +18,7 @@ class get
         // $this->nowtime=date("His",time());
         $this->nowtime=time();
         $this->id=$id;
+		$this->limit=$limit;
     }
     private function getDb($method=null) {
         return new \fangl\db\Connection($this->dsn, $this->username, $this->password);
@@ -24,9 +26,10 @@ class get
 
     public function getip($param=[])
     {
+		$limit=$this->limit?$this->limit:10;
         $param = [];
         $db = $this->getDb();
-        $ret = $db->createCommand("SELECT id,ip FROM ip_{$this->nowdate} i LEFT JOIN u_{$this->nowdate} u ON i.id=u.ipid and u.uid={$this->id} WHERE u.uid IS NULL ", [], true)->queryAll();
+        $ret = $db->createCommand("SELECT id,ip FROM ip_{$this->nowdate} i LEFT JOIN u_{$this->nowdate} u ON i.id=u.ipid and u.uid={$this->id} WHERE u.uid IS NULL limit 0,{$limit}", [], true)->queryAll();
         if (count($ret) != 0) {
             foreach ($ret as $key => $var) {
                 echo $var['ip'] . "\n";
@@ -45,7 +48,7 @@ class get
 
 }
 
-$get=new get($_GET['id']);
+$get=new get($_GET['id'],$_GET['l']);
 $get->getip();
 
 ?>
