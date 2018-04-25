@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cac99787-136d-4d31-a008-ab62c9321b21" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="setting.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setting.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Command.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fun/db/Command.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="238" column="31" lean-forward="true" selection-start-line="238" selection-start-column="31" selection-end-line="238" selection-end-column="31" />
+              <folding>
+                <element signature="e#397#627#0#PHP" />
+                <element signature="e#637#705#0#PHP" />
+                <element signature="e#715#1216#0#PHP" />
+                <element signature="e#1226#1627#0#PHP" />
+                <element signature="e#1752#2231#0#PHP" />
+                <element signature="e#2332#2609#0#PHP" />
+                <element signature="e#2742#2853#0#PHP" />
+                <element signature="e#2981#3095#0#PHP" />
+                <element signature="e#3368#3478#0#PHP" />
+                <element signature="e#3488#3770#0#PHP" />
+                <element signature="e#3901#4469#0#PHP" />
+                <element signature="e#4740#5376#0#PHP" />
+                <element signature="e#5620#5979#0#PHP" />
+                <element signature="e#6090#6270#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insert.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/insert.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/get.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="require.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/require.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fun/db/Connection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1235">
+              <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+              <folding>
+                <element signature="e#352#620#0#PHP" />
+                <element signature="e#630#704#0#PHP" />
+                <element signature="e#714#1279#0#PHP" />
+                <element signature="e#751#1273#0#PHP" />
+                <element signature="e#1289#1507#0#PHP" />
+                <element signature="e#1517#1675#0#PHP" />
+                <element signature="e#1685#1801#0#PHP" />
+                <element signature="e#1811#1931#0#PHP" />
+                <element signature="e#1941#2026#0#PHP" />
+                <element signature="e#2036#2266#0#PHP" />
+                <element signature="e#2271#2621#0#PHP" />
+                <element signature="e#2631#2769#0#PHP" />
+                <element signature="e#2774#2946#0#PHP" />
+                <element signature="e#3057#3498#0#PHP" />
+                <element signature="e#3608#3901#0#PHP" />
+                <element signature="e#3911#4244#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/setting.php" />
+        <option value="$PROJECT_DIR$/fun/db.php" />
+        <option value="$PROJECT_DIR$/module/require.php" />
+        <option value="$PROJECT_DIR$/fun/db/Command.php" />
+        <option value="$PROJECT_DIR$/module/insert.php" />
+        <option value="$PROJECT_DIR$/module/get.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="580" />
+    <option name="y" value="141" />
+    <option name="width" value="1396" />
+    <option name="height" value="737" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ip_pool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ip_pool" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ip_pool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ip_pool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fun" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ip_pool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ip_pool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fun" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="db" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ip_pool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ip_pool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pdo-db-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\ip_pool\module" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cac99787-136d-4d31-a008-ab62c9321b21" name="Default" comment="" />
+      <created>1524206874411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524206874411</updated>
+      <workItem from="1524206875713" duration="2384000" />
+      <workItem from="1524463184626" duration="12736000" />
+      <workItem from="1524622668358" duration="3880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19000000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="580" y="141" width="1396" height="737" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25072464" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Message" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun/db/Command.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="248" column="57" selection-start-line="248" selection-start-column="57" selection-end-line="248" selection-end-column="57" />
+          <folding>
+            <element signature="e#397#627#0#PHP" />
+            <element signature="e#637#705#0#PHP" />
+            <element signature="e#715#1216#0#PHP" />
+            <element signature="e#1226#1627#0#PHP" />
+            <element signature="e#1752#2231#0#PHP" />
+            <element signature="e#2332#2609#0#PHP" />
+            <element signature="e#2742#2853#0#PHP" />
+            <element signature="e#2981#3095#0#PHP" />
+            <element signature="e#3368#3478#0#PHP" />
+            <element signature="e#3488#3770#0#PHP" />
+            <element signature="e#3901#4469#0#PHP" />
+            <element signature="e#4740#5376#0#PHP" />
+            <element signature="e#5620#5979#0#PHP" />
+            <element signature="e#6090#6270#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/require.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun/db/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+          <folding>
+            <element signature="e#352#620#0#PHP" />
+            <element signature="e#630#704#0#PHP" />
+            <element signature="e#714#1279#0#PHP" />
+            <element signature="e#751#1273#0#PHP" />
+            <element signature="e#1289#1507#0#PHP" />
+            <element signature="e#1517#1675#0#PHP" />
+            <element signature="e#1685#1801#0#PHP" />
+            <element signature="e#1811#1931#0#PHP" />
+            <element signature="e#1941#2026#0#PHP" />
+            <element signature="e#2036#2266#0#PHP" />
+            <element signature="e#2271#2621#0#PHP" />
+            <element signature="e#2631#2769#0#PHP" />
+            <element signature="e#2774#2946#0#PHP" />
+            <element signature="e#3057#3498#0#PHP" />
+            <element signature="e#3608#3901#0#PHP" />
+            <element signature="e#3911#4244#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun/db.php" />
+    <entry file="file://$PROJECT_DIR$/fun/db.php" />
+    <entry file="file://$PROJECT_DIR$/setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun/db/Command.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="238" column="31" lean-forward="true" selection-start-line="238" selection-start-column="31" selection-end-line="238" selection-end-column="31" />
+          <folding>
+            <element signature="e#397#627#0#PHP" />
+            <element signature="e#637#705#0#PHP" />
+            <element signature="e#715#1216#0#PHP" />
+            <element signature="e#1226#1627#0#PHP" />
+            <element signature="e#1752#2231#0#PHP" />
+            <element signature="e#2332#2609#0#PHP" />
+            <element signature="e#2742#2853#0#PHP" />
+            <element signature="e#2981#3095#0#PHP" />
+            <element signature="e#3368#3478#0#PHP" />
+            <element signature="e#3488#3770#0#PHP" />
+            <element signature="e#3901#4469#0#PHP" />
+            <element signature="e#4740#5376#0#PHP" />
+            <element signature="e#5620#5979#0#PHP" />
+            <element signature="e#6090#6270#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun/db/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+          <folding>
+            <element signature="e#352#620#0#PHP" />
+            <element signature="e#630#704#0#PHP" />
+            <element signature="e#714#1279#0#PHP" />
+            <element signature="e#751#1273#0#PHP" />
+            <element signature="e#1289#1507#0#PHP" />
+            <element signature="e#1517#1675#0#PHP" />
+            <element signature="e#1685#1801#0#PHP" />
+            <element signature="e#1811#1931#0#PHP" />
+            <element signature="e#1941#2026#0#PHP" />
+            <element signature="e#2036#2266#0#PHP" />
+            <element signature="e#2271#2621#0#PHP" />
+            <element signature="e#2631#2769#0#PHP" />
+            <element signature="e#2774#2946#0#PHP" />
+            <element signature="e#3057#3498#0#PHP" />
+            <element signature="e#3608#3901#0#PHP" />
+            <element signature="e#3911#4244#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/require.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
