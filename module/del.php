@@ -17,13 +17,11 @@ class del
     $this->nowtime=time();
 	}
 	public function del() {
-        $db = $this->getDb();
-        //echo $this->nowmin;
-        if(!$ret)
-        {
+    
+        
             $sql ="TRUNCATE u_{$this->nowdate}";
             $db->createCommand($sql)->execute();
-		}
+		
 	}
 
 }
