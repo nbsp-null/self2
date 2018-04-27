@@ -29,7 +29,8 @@ class get
 		$limit=$this->limit?$this->limit:10;
         $param = [];
         $db = $this->getDb();
-        $ret = $db->createCommand("SELECT id,ip FROM ip_{$this->nowdate} i LEFT JOIN u_{$this->nowdate} u ON i.id=u.ipid and u.uid={$this->id} WHERE u.uid IS NULL limit 0,{$limit}", [], true)->queryAll();
+        $ret = $db->createCommand("SELECT id,ip FROM ip_{$this->nowdate} i LEFT JOIN u_{$this->nowdate} u ON i.id=u.ipid and u.uid={$this->id} WHERE u.uid IS NULL ORDER BY i.btime desc  limit 0,{$l} ", [], true)->queryAll();
+
         if (count($ret) != 0) {
             foreach ($ret as $key => $var) {
                 echo $var['ip'] . "\n";
