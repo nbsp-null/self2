@@ -16,9 +16,14 @@ class del
     // $this->nowtime=date("His",time());
     $this->nowtime=time();
 	}
+	
+	    private function getDb($method=null) {
+        return new \fangl\db\Connection($this->dsn, $this->username, $this->password);
+    }
+	
 	public function del() {
     
-        
+			 $db = $this->getDb();
             $sql ="TRUNCATE u_{$this->nowdate}";
             $db->createCommand($sql)->execute();
 		
