@@ -1,6 +1,6 @@
 <?php
-error_reporting(E_ALL | E_STRICT); 
-ini_set("display_errors", "On"); 
+error_reporting(E_ALL | E_STRICT);
+ini_set("display_errors", "On");
 require ("require.php");
 class get
 {
@@ -11,18 +11,16 @@ class get
     private $nowmin;
     private $nowtime;
     private $id;
-	private $limit;
-
-    public function __construct($id,$limit)
+    private $l;
+    public function __construct($id,$i)
     {
         $this->nowdate=date("YmdH",time());
-        //$this->nowmin=date("His",time());
+        $this->nowmin=date("His",time());
         $this->nowmin=time();
-        // $this->nowtime=date("His",time());
+        $this->nowtime=date("His",time());
         $this->nowtime=time();
         $this->id=$id;
-		$this->limit=$limit;
-		
+        $this->l=$i;
     }
     private function getDb($method=null) {
         return new \fangl\db\Connection($this->dsn, $this->username, $this->password);
@@ -30,12 +28,11 @@ class get
 
     public function getip($param=[])
     {
-		$limit=$this->limit?$this->limit:10;
+        $l=$this->l?$this->l:10;
         $param = [];
         $db = $this->getDb();
-       // $ret = $db->createCommand("SELECT id,ip FROM ip_{$this->nowdate} i LEFT JOIN u_{$this->nowdate} u ON i.id=u.ipid and u.uid={$this->id} WHERE u.uid IS NULL ORDER BY i.btime desc  limit 0,{$l} ", [], true)->queryAll();
-
-      $ret = $db->createCommand("SELECT id,ip FROM ip_{$this->nowdate} i LEFT JOIN u_{$this->nowdate} u ON i.id=u.ipid and u.uid {$this->id} WHERE u.uid IS NULL ORDER BY i.btime desc  limit 0,{$limit} ", [], true)->queryAll();
+        //$ret=$db->createCommand("select ip from ip_{$this->nowdate} i order by i.btime desc limit 0,{$l}")->queryAll();
+       $ret = $db->createCommand("SELECT id,ip FROM ip_{$this->nowdate} i LEFT JOIN u_{$this->nowdate} u ON i.id=u.ipid and u.uid={$this->id} WHERE u.uid IS NULL ORDER BY i.btime desc  limit 0,{$l} ", [], true)->queryAll();
         if (count($ret) != 0) {
             foreach ($ret as $key => $var) {
                 echo $var['ip'] . "\r\n";
@@ -43,8 +40,7 @@ class get
                 $param[$key]['uid'] = $this->id;
                 $param[$key]['btime'] = $this->nowtime;
             }
-            $this->getDb()->createCommand()->batchInsert("u_{$this->nowdate}", $param); 
-            // $this->getDb()->createCommand()->batchInsert("ip_{$this->nowdate}", $param);
+            $this->getDb()->createCommand()->batchInsert("u_{$this->nowdate}", $param); // $this->getDb()->createCommand()->batchInsert("ip_{$this->nowdate}", $param);
         }
         else
         {
@@ -55,6 +51,6 @@ class get
 }
 
 $get=new get($_GET['id'],$_GET['l']);
-$get->getip();
+
 
 ?>
