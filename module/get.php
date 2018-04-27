@@ -51,6 +51,6 @@ class get
 }
 
 $get=new get($_GET['id'],$_GET['l']);
-
+$get->getip();
 
 ?>
